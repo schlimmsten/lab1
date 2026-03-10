@@ -1,0 +1,12 @@
+Source: laba1
+Section: utils
+Priority: optional
+Maintainer: ViktorArtem
+Build-Depends: debhelper-compat (= 13), g++, make
+Standards-Version: 4.6.0
+
+Package: lab1-var1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Программа для варианта 1
+ Последовательность Фибоначчи.
